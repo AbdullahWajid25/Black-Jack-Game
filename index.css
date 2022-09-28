@@ -1,0 +1,61 @@
+body {
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+    background-color: #025c2a;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    /* rgb(0, 100, 0) */
+}
+h1 {
+    color: goldenrod;
+    font-size: 50px;
+}
+#message-el {
+    font-size: 30px;
+    font-style: italic;
+}
+p{
+    font-size: 30px;
+}
+#start-el {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    color: #016f32;
+    width: 180px;
+    background-color: goldenrod;
+    border: none;
+    transition: 0.2s;
+}
+#start-el:hover{
+    cursor: pointer;
+    font-size: 22px;
+    height: 45px;
+    width: 186px;
+}
+#newCard-el {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    color: #016f32;
+    width: 180px;
+    background-color: goldenrod;
+    border: none;
+    transition: 0.2s;
+}
+#newCard-el:hover{
+    cursor: pointer;
+    font-size: 22px;
+    height: 45px;
+    width: 186px;
+}
