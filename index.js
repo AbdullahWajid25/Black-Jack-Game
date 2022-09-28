@@ -16,14 +16,13 @@ let sumEl = document.querySelector("#sum-el")
 
 let playerEl = document.getElementById("player-el")
 let newCardEl = document.getElementById("newCard-el")
-let reloadEl = document.getElementById("reload-el")
 
 //* Object - Store data in depth - Composite / Complex data type - Key-Value pairs
 // let player = {
 //     name: "Guest",
 //     chips: 200
 // }
-playerEl.textContent = player.name + " : $" + player.chips
+// playerEl.textContent = player.name + " : $" + player.chips
 
 //! Getting random card:
 function getRandomCard() {
@@ -82,8 +81,6 @@ function renderGame() {
     else if (sum === 21) {
         message = "You've got Blackjack!🎉"
         hasBlackJack = true
-        newChips = 100
-        player.chips = player.chips + newChips
     }
 
     //^ More than 21, you lost the game :
@@ -108,10 +105,8 @@ function newCard() {
 
 }
 
-
 //? Important Information Regarding The Game:
 // Ace = A = 1 or 11 (We will focus it as 11)
-// 1 = 1
 // 2 = 2
 // 3 = 3
 // 4 = 4
@@ -120,7 +115,6 @@ function newCard() {
 // 7 = 7
 // 8 = 8
 // 9 = 9
-// 10 = 10
 // Jack = J = 10
 // Queen = Q = 10
 // King = K = 10
